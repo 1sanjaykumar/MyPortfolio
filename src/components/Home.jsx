@@ -108,7 +108,7 @@ function Home() {
          
             <div className="mt-6">
               <a
-                href="/SanjayResume.pdf"
+                href="/Resume_4th_year.pdf"
                 download
                 className="inline-block px-6 py-3 bg-green-500 text-white font-semibold rounded-lg shadow-md hover:bg-green-600 transition duration-300"
               >
@@ -119,7 +119,7 @@ function Home() {
         </div>
         <div className="md:w-1/2 flex justify-center md:justify-end mb-10 md:mb-0 pt-7 md:pt-0">
           <img
-            src="/public/profileimage3.jpg"
+            src="/profileimage3.jpg"
             alt="Profile"
             className="w-60 h-60 md:w-100 md:h-100  shadow-[3px_5px_5px_rgba(255,0,0,0.3)] hover:shadow-[10px_10px_30px_rgba(0,255,0,0.3)] transition-all rounded-[40%] border-4 border-gray-800 hover:scale-105 transition duration-500  "
           />

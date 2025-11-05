@@ -37,7 +37,7 @@ const handleScroll = (section) => {
         <div className="flex items-center space-x-3 cursor-pointer animate-slideInLeft">
           <img
             className="w-10 h-10 rounded-full border  hover:scale-105 transition-transform duration-500"
-            src="/public/ghibliprofile.png"
+            src="/ghibliprofile.png"
             alt="Logo"
           />
           <div>
