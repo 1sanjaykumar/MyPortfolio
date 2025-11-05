@@ -5,7 +5,7 @@ import {
   FaFacebook,
   FaWhatsapp,
 } from "react-icons/fa";
-import TypingText from "./TypingText";
+import TypingText from "./Typingtext";
 
 function Home() {
   const phrases = [
