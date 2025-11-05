@@ -119,7 +119,7 @@ function Home() {
         </div>
         <div className="md:w-1/2 flex justify-center md:justify-end mb-10 md:mb-0 pt-7 md:pt-0">
           <img
-            src="/public/profileImage3.jpg"
+            src="/public/profileimage3.jpg"
             alt="Profile"
             className="w-60 h-60 md:w-100 md:h-100  shadow-[3px_5px_5px_rgba(255,0,0,0.3)] hover:shadow-[10px_10px_30px_rgba(0,255,0,0.3)] transition-all rounded-[40%] border-4 border-gray-800 hover:scale-105 transition duration-500  "
           />
