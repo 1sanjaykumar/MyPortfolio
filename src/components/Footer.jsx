@@ -15,7 +15,7 @@ function Footer() {
   return (
     <footer className="w-full bg-black bg-opacity-80 text-gray-300 py-10 px-6 md:px-20 border-t border-gray-700 backdrop-blur-md relative z-10">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
-        {/* Left Text */}
+     
         <div className="text-center md:text-left space-y-2">
           <h2 className="text-xl font-semibold text-white">
             Designed & Built by <span className="text-red-500">Sanjay Sahu</span>
@@ -25,7 +25,7 @@ function Footer() {
           </p>
         </div>
 
-        {/* Social Icons */}
+  
         <div className="flex space-x-6">
           <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="text-blue-400 hover:text-blue-600 hover:scale-110 transition duration-300" size={24} />
@@ -41,7 +41,7 @@ function Footer() {
           </a>
         </div>
 
-        {/* Scroll To Top */}
+        
         <div>
           <button
             onClick={scrollToTop}

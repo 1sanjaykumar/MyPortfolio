@@ -9,7 +9,7 @@ import Footer from './components/Footer'; // You forgot to import this in your s
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen bg-black">
+    <div className="flex flex-col overflow-x-hidden min-h-screen bg-black">
       <Navbar />
       
       <main className="flex-grow">

@@ -10,23 +10,23 @@ import TypingText from "./TypingText";
 function Home() {
   const phrases = [
     "Full Stack Developer",
-    "Cyber Security Enthusiast",
+    "Data Analyst",
     "Passionate Coder",
     "A Quick Learner",
   ];
 
   return (
-    <div id="Home" className=" relative overflow-hidden">
-      {/* Animated background blobs */}
+    <div id="home" className=" relative overflow-hidden">
+
       <div className="absolute top-0 left-0 w-full h-full -z-10">
         <div className="absolute w-72 h-72 bg-pink-500 opacity-30 rounded-full mix-blend-multiply filter blur-2xl animate-blob top-10 left-10"></div>
         <div className="absolute w-72 h-72 bg-yellow-500 opacity-30 rounded-full mix-blend-multiply filter blur-2xl animate-blob animation-delay-2000 top-40 left-60"></div>
         <div className="absolute w-72 h-72 bg-blue-500 opacity-30 rounded-full mix-blend-multiply filter blur-2xl animate-blob animation-delay-4000 top-60 left-20"></div>
       </div>
 
-      {/* Main content */}
+ 
       <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full min-h-screen bg-black bg-opacity-70 text-white pt-20 pb-10 px-6 md:px-20">
-        {/* Left Content */}
+ 
         <div className="md:w-1/2 space-y-6">
           <h1 className="text-3xl font-semibold text-white">
             Welcome to My Feed
@@ -64,7 +64,7 @@ function Home() {
             <h3 className="font-semibold text-xl text-white">Available At:</h3>
             <div className="flex space-x-6 mt-3">
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/sanjaykumarsahu8055?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_apphttps://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -74,7 +74,7 @@ function Home() {
                 />
               </a>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/_https.sanjay?igsh=MTNicXJtNGk0a2cxOQ=="
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -84,7 +84,7 @@ function Home() {
                 />
               </a>
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/share/1A4xyh4u1p/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -94,7 +94,7 @@ function Home() {
                 />
               </a>
               <a
-                href="https://wa.me/your-number"
+                href="https://wa.me/7869938566"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -105,7 +105,7 @@ function Home() {
               </a>
             </div>
 
-            {/* Download Resume Button */}
+         
             <div className="mt-6">
               <a
                 href="/SanjayResume.pdf"
@@ -117,13 +117,11 @@ function Home() {
             </div>
           </div>
         </div>
-
-        {/* Right Profile Image */}
         <div className="md:w-1/2 flex justify-center md:justify-end mb-10 md:mb-0 pt-7 md:pt-0">
           <img
-            src="/public/ghibliprofile2.png"
+            src="/public/profileImage3.jpg"
             alt="Profile"
-            className="w-60 h-60 md:w-100 md:h-100  shadow-[17px_15px_20px_rgba(255,0,0,0.3)] hover:shadow-[10px_10px_30px_rgba(0,255,0,0.3)] transition-all rounded-[40%] border-4 border-gray-800 hover:scale-105 transition duration-500  "
+            className="w-60 h-60 md:w-100 md:h-100  shadow-[3px_5px_5px_rgba(255,0,0,0.3)] hover:shadow-[10px_10px_30px_rgba(0,255,0,0.3)] transition-all rounded-[40%] border-4 border-gray-800 hover:scale-105 transition duration-500  "
           />
         </div>
       </div>

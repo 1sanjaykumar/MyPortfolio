@@ -5,20 +5,31 @@ import { ImCross } from "react-icons/im";
 function Navbar() {
   const [menu, setMenu] = useState(false);
   const navItems = [
-    { id: 1, name: "Home" },
-    { id: 2, name: "Achievements" },
-    { id: 3, name: "Projects" },
-    { id: 4, name: "Certificates" },
-    { id: 5, name: "Contact" },
+    { id: 1, name: "home" },
+    { id: 2, name: "achievements" },
+    { id: 3, name: "projects" },
+    { id: 4, name: "certificates" },
+    { id: 5, name: "contact" },
   ];
 
-  const handleScroll = (section) => {
-    const target = document.getElementById(section);
-    if (target) {
-      target.scrollIntoView({ behavior: "smooth", block: "start" });
-      setMenu(false);
-    }
-  };
+const handleScroll = (section) => {
+  const target = document.getElementById(section);
+  if (!target) return;
+
+  if (menu) {
+    setMenu(false);
+    // wait until layout stabilizes
+    requestAnimationFrame(() =>
+      requestAnimationFrame(() => {
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      })
+    );
+  } else {
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+};
+
+
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black/40 backdrop-blur-lg shadow-lg border-b border-gray-700 animate-fadeIn">
@@ -26,11 +37,11 @@ function Navbar() {
         <div className="flex items-center space-x-3 cursor-pointer animate-slideInLeft">
           <img
             className="w-10 h-10 rounded-full border  hover:scale-105 transition-transform duration-500"
-            src="/public/chibliprofile2.png"
+            src="/public/ghibliprofile.png"
             alt="Logo"
           />
           <div>
-            <h1 className="font-bold text-xl text-white transition-all duration-500 hover:text-red-400">
+            <h1 className="font-bold text-xl text-white transition-all duration-500 hover:text-red-500">
               Sanjay <span className="text-red-500">Sahu</span>
             </h1>
             <p className="text-sm text-gray-400">Full Stack Developer</p>

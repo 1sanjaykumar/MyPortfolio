@@ -2,6 +2,13 @@ import React, { useState } from 'react';
 
 function Certifications() {
   const certificates = [
+     {
+      title: "Oracle MySQL HeatWave Implementation Certified Associate Rel 1",
+      description: "🎓 Participated",
+      imgSrc: "/public/oracleCertificate.jpg",
+      imgAlt: "Oracle MySQL Certificate",
+      id: "MySQL-cert",
+    },
     {
       title: "Inter-College Android Development Workshop",
       description: "🎓 Participated",
@@ -35,7 +42,7 @@ function Certifications() {
       description: "🥈 2nd Position Achieved",
       imgSrc: "/public/tripple jump.jpg",
       imgAlt: "AI ML Workshop Certificate",
-      id: "aiml-cert",
+      id: "triplejump-cert",
     },
     {
       title: "AI & ML Workshop",
@@ -63,9 +70,9 @@ function Certifications() {
   };
 
   return (
-    <section id="Certificates" name="Certifications" className="min-h-screen bg-black py-20 px-5">
-      {/* More Attractive Heading */}
-      <h1 className="text-5xl md:text-6xl font-extrabold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-[#00F5FF] via-[#FF00F7] to-[#FFD700] animate-pulse drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">
+    <section id="certificates" name="Certifications" className="min-h-screen bg-black py-20 px-5">
+     
+      <h1 className="text-4xl md:text-6xl font-extrabold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-[#00F5FF] via-[#FF00F7] to-[#FFD700] animate-pulse drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">
         🚀 Certifications 
       </h1>
 
@@ -91,7 +98,7 @@ function Certifications() {
               <img
                 src={cert.imgSrc}
                 alt={cert.imgAlt}
-                className="mt-6 w-full rounded-xl shadow-xl border border-gray-800 hover:scale-105 transition-transform duration-300"
+                className="text-white mt-6 w-full rounded-xl shadow-xl border border-gray-800 hover:scale-105 transition-transform duration-300"
               />
             )}
 

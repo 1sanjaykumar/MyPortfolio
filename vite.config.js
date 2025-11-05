@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:"/MyPortfolio?tab=readme-ov-file/",
+  // base:"/MyPortfolio?tab=readme-ov-file/",
   plugins: [tailwindcss(), react()],
 })

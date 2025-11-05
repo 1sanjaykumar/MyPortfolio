@@ -29,8 +29,8 @@ const Achievements = () => {
   ];
 
   return (
-    <section id="Achievements"  className="w-screen min-h-screen bg-black py-20 px-6 flex flex-col items-center">
-      <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-yellow-400 to-pink-500 mb-14 drop-shadow-lg">
+    <section id="achievements"  className="w-screen min-h-screen bg-black py-20 px-6 flex flex-col items-center">
+      <h1 className="md:text-6xl text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-yellow-400 to-pink-500 mb-14 drop-shadow-lg animate-pulse">
         Achievements
       </h1>
 
