@@ -10,7 +10,7 @@ function Certifications() {
       id: "MySQL-cert",
     },
     {
-      title: "Inter-College Android Development Workshop",
+      title: "Android Development Workshop",
       description: "🎓 Participated",
       imgSrc: "/public/android.jpg",
       imgAlt: "Java Certificate",
