@@ -1,0 +1,1 @@
+- [ ] Edit Contact.jsx: Remove backend fetch, add error handling for EmailJS, show success/error messages appropriately.

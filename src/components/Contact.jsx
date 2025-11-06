@@ -8,6 +8,7 @@ function Contact() {
     message: ""
   });
   const [showMessage, setShowMessage] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -15,6 +16,7 @@ function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setErrorMessage("");
 
     try {
       // Send email with EmailJS
@@ -25,23 +27,12 @@ function Contact() {
         "LftFU_JTYrqX4Xa8p"      // your EmailJS public key
       );
 
-      // Submit to your backend (MongoDB)
-      const response = await fetch("http://localhost:5000/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-
-      const data = await response.json();
-      if (data.success) {
-        setShowMessage(true);
-        setFormData({ name: "", email: "", message: "" });
-        setTimeout(() => setShowMessage(false), 3000);
-      }
+      setShowMessage(true);
+      setFormData({ name: "", email: "", message: "" });
+      setTimeout(() => setShowMessage(false), 3000);
     } catch (error) {
       console.error("Submission error:", error);
+      setErrorMessage("Failed to send message. Please try again.");
     }
   };
 
@@ -98,6 +89,12 @@ function Contact() {
         {showMessage && (
           <p className="text-center text-green-400 mt-4 font-medium animate-pulse">
             ✅ Message sent successfully!
+          </p>
+        )}
+
+        {errorMessage && (
+          <p className="text-center text-red-400 mt-4 font-medium animate-pulse">
+            ❌ {errorMessage}
           </p>
         )}
       </form>

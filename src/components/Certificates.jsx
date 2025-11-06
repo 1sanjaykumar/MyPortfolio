@@ -3,60 +3,71 @@ import React, { useState } from 'react';
 function Certifications() {
   const certificates = [
      {
+      title: "GrappleTech Internship Completion Certificate of 1 months",
+      description: "This is to certify that Sahu Sanjay has successfully completed a 1-month internship at GrappleTech, gaining practical experience and skills in the field of web development and related technologies.",
+      imgSrc: "public/GrappleTech Internship Certificate.jpg",
+      imgAlt: "Internship Certificate",
+      id: "Intenship-cert",
+    }, {
       title: "Oracle MySQL HeatWave Implementation Certified Associate Rel 1",
-      description: "🎓 Participated",
+      description:" 🏅 Certified by Oracle University",
       imgSrc: "/oracleCertificate.jpg",
       imgAlt: "Oracle MySQL Certificate",
       id: "MySQL-cert",
-    },
+    },  
     {
-      title: "Android Development Workshop",
-      description: "🎓 Participated",
-      imgSrc: "/android.jpg",
-      imgAlt: "Java Certificate",
+      title: "Android Development Workshop Certificate",
+      description:" 🎓 Participated",
+      imgSrc: "/public/Android Workshop Certification.jpg",
+      imgAlt: "Android Certificate",
       id: "java-cert",
-    },
-    {
-      title: "Bite Bettle Hackathon",
+    }, {
+      title: "Blind C (Coding Competition) Inter College Competition Certificate",
+      description: "Runner Up - 2nd Position Achieved",
+      imgSrc: "/Blind C.jpg",
+      imgAlt: "Blind C Certificate",
+      id: "aiml-cert",
+    }, {
+      title: "Bite Bettle Hackathon Certificate",
       description: "🎯 Participant",
-      imgSrc: "/bettlebyte.jpg",
+      imgSrc: "/Hackathon Byte Battle Certificate.jpg",
       imgAlt: "Ethical Hacking Certificate",
       id: "ethical-hacking-cert",
-    },
-    {
-      title: "Balod Technofest Project Presentation",
+    },{
+      title: "Balod Technofest Project Presentation Certificate",
       description: "🎖 Participation",
-      imgSrc: "/balod.jpg",
+      imgSrc: "/Balod Techfest Certificate.jpg",
       imgAlt: "Penetration Testing Certificate",
       id: "pen-test-cert",
     },
+   
     {
+      title: "React-Next Workshop Certificate",
+      description: "🥇 1st Position Achieved, Excellence Certificate for React-Next Workshop ",
+      imgSrc: "/React-Next Workshop Excellence Certificate .jpg",
+      imgAlt: "Generative AI Workshop Certificate",
+      id: "React-Next-cert",
+    },
+     {
+      title: "B Certificate in Non Technical Skills from NSS",
+      description: "This is to certify that Cadet Sahu Sanjay has successfully completed the prescribed training and fulfilled all requirements for the award of 'B' Certificate in Non Technical Skills from NSS.",
+      imgSrc: "/public/B Certificate.jpg",
+      imgAlt: "B Certificate",
+      id: "B-cert",
+    },
+     {
       title: "Inter-College Sports Event – Kho Kho",
       description: "🥇 1st Position Achieved",
-      imgSrc: "/kho.jpg",
+      imgSrc: "/kho kho game 1st prize certificate.jpg",
       imgAlt: "Python Django Certificate",
       id: "django-cert",
     },
-    {
-      title: "Triple Jump University Level Competition",
+     {
+      title: "Triple Jump University Level Competition Certificate",
       description: "🥈 2nd Position Achieved",
-      imgSrc: "/tripple jump.jpg",
+      imgSrc: "/tripple jump runner up certificate.jpg",
       imgAlt: "AI ML Workshop Certificate",
       id: "triplejump-cert",
-    },
-    {
-      title: "AI & ML Workshop",
-      description: "CSIT Campus",
-      imgSrc: "#",
-      imgAlt: "AI ML Workshop Certificate",
-      id: "aiml-cert",
-    },
-    {
-      title: "Generative AI Workshop",
-      description: "CSIT Campus",
-      imgSrc: "#",
-      imgAlt: "Generative AI Workshop Certificate",
-      id: "genai-cert",
     },
   ];
 
