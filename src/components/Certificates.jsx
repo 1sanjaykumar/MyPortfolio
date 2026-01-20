@@ -5,7 +5,7 @@ function Certifications() {
      {
       title: "GrappleTech Internship Completion Certificate of 1 months",
       description: "This is to certify that Sahu Sanjay has successfully completed a 1-month internship at GrappleTech, gaining practical experience and skills in the field of web development and related technologies.",
-      imgSrc: "public/GrappleTech Internship Certificate.jpg",
+      imgSrc: "/GrappleTech Internship Certificate.jpg",
       imgAlt: "Internship Certificate",
       id: "Intenship-cert",
     }, {
