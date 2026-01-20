@@ -18,7 +18,7 @@ function Certifications() {
     {
       title: "Android Development Workshop Certificate",
       description:" 🎓 Participated",
-      imgSrc: "/public/Android Workshop Certification.jpg",
+      imgSrc: "/Android Workshop Certification.jpg",
       imgAlt: "Android Certificate",
       id: "java-cert",
     }, {
@@ -51,7 +51,7 @@ function Certifications() {
      {
       title: "B Certificate in Non Technical Skills from NSS",
       description: "This is to certify that Cadet Sahu Sanjay has successfully completed the prescribed training and fulfilled all requirements for the award of 'B' Certificate in Non Technical Skills from NSS.",
-      imgSrc: "/public/B Certificate.jpg",
+      imgSrc: "/B Certificate.jpg",
       imgAlt: "B Certificate",
       id: "B-cert",
     },
