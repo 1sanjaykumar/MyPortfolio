@@ -108,7 +108,7 @@ function Home() {
          
             <div className="mt-6">
               <a
-                href="/Resume_4th_year.pdf"
+                href="/Sanjay_Resume_4th_year.pdf"
                 download
                 className="inline-block px-6 py-3 bg-green-500 text-white font-semibold rounded-lg shadow-md hover:bg-green-600 transition duration-300"
               >
